@@ -39,7 +39,7 @@
   @apply sm:px-16 px-6;
 }
 .custom-btn {
-  @apply bg-gray-100 p-3 mb-2.5 rounded font-semibold 
+  @apply bg-gray-100 p-3 mb-2.5 rounded font-semibold hover:bg-black hover:text-white
 }
 
 .hero {
