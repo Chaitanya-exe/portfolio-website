@@ -12,7 +12,7 @@ const Card = ({ project }) => {
         width={400}
         height={500}
         alt="img"
-        className="object-contain"
+        className="object-contain w-full"
       />
       <div className="p-3 *:py-3">
         <p className="hero__subtitle">{project.title} </p>

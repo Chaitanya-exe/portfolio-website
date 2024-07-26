@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className="my-14 h-[60vh] flex gap-10 justify-center p-10 h-ful ">
+    <section className="my-14  flex flex-col sm:flex-row gap-8 justify-center p-10 h-ful ">
     <div className='max-w-3xl '>
 
       <h2 className="hero__title">Chaitanya Yadav</h2>
@@ -20,11 +20,9 @@ const Hero = () => {
         <button className='custom-btn'>Contact me</button>
       </div>
     </div>
-    <div className=''>
-    <div className='overflow-hidden hero__imag '>
-        <Image src="/image.png" alt='img' width={480} height={380}  className='object-contain'  />
+    <div className='overflow-hidden'>
+        <Image src="/image.png" alt='img' width={480} height={480}  className='object-contain h-full w-full'  />
 
-    </div>
     </div>
     </section>
   );
