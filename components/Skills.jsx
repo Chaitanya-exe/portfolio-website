@@ -21,10 +21,9 @@ const Show = ({ currentdiv }) => {
 
 const Skills = () => {
   const [currentdiv, setCurrentDiv] = useState(current[0]);
-  console.log(currentdiv);
   return (
-    <Head title="My Skills">
-    <section className="my-12">
+    <Head title="Skills & Experience">
+    <section className="my-12" id="Skills & Experience">
 
       <div className="flex gap-8  justify-center *:bg-gray-100 *:p-3 *:rounded-lg ">
         <button
@@ -38,12 +37,6 @@ const Skills = () => {
           className="hover:bg-black hover:text-white"
         >
           Skills
-        </button>
-        <button
-          onClick={() => setCurrentDiv(current[2])}
-          className="hover:bg-black hover:text-white"
-        >
-          About
         </button>
       </div>
       <div className="max-w-xl mx-auto">
