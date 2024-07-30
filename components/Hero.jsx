@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -12,10 +13,11 @@ const Hero = () => {
         A highly motivated full-stack developer with a passion for building innovative solutions. I'm Chaitanya Yadav, a B.Tech student with a strong foundation in Python, Javascript, Rust, and C/C++. This portfolio showcases my diverse skillset and highlights projects that demonstrate my ability to tackle complex challenges across the entire development stack.
         </h4>
         <div className='flex gap-5 my-6'>
-          <button className='custom-btn'>
-            My Work
-          </button>
-          <button className='custom-btn'>Contact me</button>
+          <Link href="myResume.pdf">
+            <button className='custom-btn'>
+              Get My Resume
+            </button>
+          </Link>
         </div>
       </div>
       <div className='overflow-hidden'>
