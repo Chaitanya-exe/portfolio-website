@@ -49,7 +49,7 @@ export default function HeroSection() {
           width={400}
           height={400}
           priority
-          className="object-contain w-full h-auto drop-shadow-lg"
+          className="object-contain grayscale drop-shadow-2xl"
         />
       </motion.div>
 

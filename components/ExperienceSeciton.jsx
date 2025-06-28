@@ -4,17 +4,17 @@ import { motion } from 'framer-motion';
 
 const experience = [
   {
+    role: 'Software Engineer Fellow',
+    company: 'Headstarter',
+    duration: 'Jul 2024 – Sep 2024',
+    description: `Learned and applied full-stack web development and integrated AI tools like ChatGPT and Gemini. Practiced professional networking and engagement.`,
+  },
+  {
     role: 'Lead Backend Developer',
     company: 'bdbvpl',
     duration: 'Dec 2024 – Jan 2025',
     description: `Led the backend development team, built professional dashboards, managed database architecture and development workflows using Next.js.`,
   },
-  {
-    role: 'Software Engineer Fellow',
-    company: 'Headstarter',
-    duration: 'Jul 2024 – Sep 2024',
-    description: `Learned and applied full-stack web development and integrated AI tools like ChatGPT and Gemini. Practiced professional networking and engagement.`,
-  }
 ];
 
 export default function ExperienceSection() {
