@@ -41,16 +41,18 @@ export default function HeroSection() {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.3, duration: 1 }}
-        className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] rounded-full overflow-hidden shadow-lg border border-white/10"
+        className="relative w-full md:w-1/2 h-[400px] md:h-[600px] flex items-end justify-end md:pr-0"
       >
-        <Image
-          src="/my_pic.png" // transparent background, black & white artwork
-          alt="Chaitanya Yadav Illustration"
-          width={400}
-          height={400}
-          priority
-          className="object-contain grayscale drop-shadow-2xl"
-        />
+        <div className="relative w-full h-full">
+          <Image
+            src="/my_pic.png"
+            alt="Chaitanya Yadav Illustration"
+            fill
+            priority
+            className="object-contain grayscale drop-shadow-[0_8px_40px_rgba(255,255,255,0.05)] scale-x-[-1]"
+          />
+          <div className="absolute bottom-0 left-0 w-full h-28 bg-gradient-to-t from-black/60 to-transparent z-10" />
+        </div>
       </motion.div>
 
       {/* Decorative Background Glow */}
