@@ -15,6 +15,12 @@ const experience = [
     duration: 'Dec 2024 – Jan 2025',
     description: `Led the backend development team, built professional dashboards, managed database architecture and development workflows using Next.js.`,
   },
+  {
+    role: 'Backend Developer Intern',
+    company: 'PearlThoughts',
+    duration: 'July 2025 - August 2025',
+    description: `Worked with senior developer on a scalable elastic scheduling API from a static scheduling API resulting in 50% efficiency increase in the booking speed and appointment handling in edge cases`
+  }
 ];
 
 export default function ExperienceSection() {

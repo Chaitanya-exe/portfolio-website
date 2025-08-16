@@ -2,16 +2,18 @@
 
 import { motion } from 'framer-motion';
 import { FaPython, FaJs, FaNodeJs, FaReact, FaRust, FaGitAlt, FaLinux, FaAtom } from 'react-icons/fa';
-import { SiNextdotjs, SiPostgresql, SiMysql, SiFastapi, SiTailwindcss, SiCplusplus } from 'react-icons/si';
+import { SiNextdotjs, SiPostgresql, SiMysql, SiFastapi, SiTailwindcss, SiCplusplus, SiTypescript, SiNestjs } from 'react-icons/si';
 
 const skills = [
   { label: 'JavaScript', icon: <FaJs className="text-yellow-400" /> },
+  { label: 'TypeScript', icon: <SiTypescript className='text-blue-400' /> },
   { label: 'Python', icon: <FaPython className="text-blue-400" /> },
   { label: 'Rust', icon: <FaRust className="text-orange-400" /> },
   { label: 'C++', icon: <SiCplusplus className="text-indigo-400" /> },
   { label: 'FastAPI', icon: <SiFastapi className="text-green-400" /> },
   { label: 'React', icon: <FaReact className="text-cyan-400" /> },
   { label: 'Next.js', icon: <SiNextdotjs className="text-white" /> },
+  { label: 'Nest.js', icon: <SiNestjs className='text-pink-700' /> },
   { label: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
   { label: 'PostgreSQL', icon: <SiPostgresql className="text-blue-500" /> },
   { label: 'MySQL', icon: <SiMysql className="text-blue-300" /> },
